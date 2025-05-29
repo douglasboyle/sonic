@@ -1,9 +1,12 @@
+//go:build ignore
+// +build ignore
+
 package main
 
 import (
-    `fmt`
+	"fmt"
 
-    `github.com/douglasboyle/sonic`
+	"github.com/douglasboyle/sonic"
 )
 
 var V int
@@ -11,13 +14,13 @@ var V int
 var Obj map[string]string
 
 func init() {
-    if err := sonic.UnmarshalString(`{"a":"b"}`, &Obj); err != nil {
-        panic(err)
-    }
+	if err := sonic.UnmarshalString(`{"a":"b"}`, &Obj); err != nil {
+		panic(err)
+	}
 }
 
 func F() { fmt.Printf("Hello, number %d\n", V) }
 
 func Unmarshal(json string, val interface{}) error {
-    return sonic.UnmarshalString(json, val)
+	return sonic.UnmarshalString(json, val)
 }
