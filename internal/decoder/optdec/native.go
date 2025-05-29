@@ -7,10 +7,10 @@ import (
 
 	"sync"
 
-	"github.com/bytedance/sonic/internal/native"
-	"github.com/bytedance/sonic/internal/native/types"
-	"github.com/bytedance/sonic/internal/rt"
-	"github.com/bytedance/sonic/utf8"
+	"github.com/douglasboyle/sonic/internal/native"
+	"github.com/douglasboyle/sonic/internal/native/types"
+	"github.com/douglasboyle/sonic/internal/rt"
+	"github.com/douglasboyle/sonic/utf8"
 )
 
 

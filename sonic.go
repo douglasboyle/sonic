@@ -24,10 +24,10 @@ import (
     `io`
     `reflect`
 
-    `github.com/bytedance/sonic/decoder`
-    `github.com/bytedance/sonic/encoder`
-    `github.com/bytedance/sonic/option`
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/decoder`
+    `github.com/douglasboyle/sonic/encoder`
+    `github.com/douglasboyle/sonic/option`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 const apiKind = UseSonicJSON

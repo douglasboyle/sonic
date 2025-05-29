@@ -19,7 +19,7 @@ package issue_test
 import (
     `testing`
 
-    `github.com/bytedance/sonic`
+    `github.com/douglasboyle/sonic`
 )
 
 //NOTICE: only DEBUG mode can reproduce problem

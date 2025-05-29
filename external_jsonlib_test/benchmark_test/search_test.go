@@ -21,7 +21,7 @@ import (
     `math`
     `testing`
 
-    `github.com/bytedance/sonic/ast`
+    `github.com/douglasboyle/sonic/ast`
     `github.com/buger/jsonparser`
     jsoniter `github.com/json-iterator/go`
     `github.com/tidwall/gjson`

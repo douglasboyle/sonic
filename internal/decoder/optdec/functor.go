@@ -5,8 +5,8 @@ import (
 	"math"
 	"unsafe"
 
-	"github.com/bytedance/sonic/internal/rt"
-	"github.com/bytedance/sonic/internal/resolver"
+	"github.com/douglasboyle/sonic/internal/rt"
+	"github.com/douglasboyle/sonic/internal/resolver"
 )
 
 type decFunc interface {

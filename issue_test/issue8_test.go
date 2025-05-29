@@ -21,7 +21,7 @@ import (
     `reflect`
     `testing`
 
-    . `github.com/bytedance/sonic`
+    . `github.com/douglasboyle/sonic`
 )
 
 func TestFloat(t *testing.T) {

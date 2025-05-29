@@ -20,8 +20,8 @@ import (
     `strconv`
     `unsafe`
 
-    `github.com/bytedance/sonic/internal/rt`
-    `github.com/bytedance/sonic/internal/jit`
+    `github.com/douglasboyle/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/jit`
     `github.com/twitchyliquid64/golang-asm/obj`
     `github.com/twitchyliquid64/golang-asm/obj/x86`
 )

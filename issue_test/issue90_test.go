@@ -17,7 +17,7 @@
 package issue_test
 
 import (
-    . `github.com/bytedance/sonic`
+    . `github.com/douglasboyle/sonic`
     `encoding/json`
     `fmt`
     `testing`

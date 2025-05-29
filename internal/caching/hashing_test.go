@@ -21,7 +21,7 @@ import (
     `testing`
     `unsafe`
 
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 const (

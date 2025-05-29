@@ -21,7 +21,7 @@ import (
     `sync/atomic`
     `unsafe`
 
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 /** Program Map **/

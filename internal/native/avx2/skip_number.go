@@ -21,7 +21,7 @@ package avx2
 import (
     `unsafe`
 
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 var F_skip_number func(s unsafe.Pointer, p unsafe.Pointer) (ret int)

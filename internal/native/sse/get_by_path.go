@@ -21,8 +21,8 @@ package sse
 import (
     `unsafe`
 
-    `github.com/bytedance/sonic/internal/native/types`
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/native/types`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 var F_get_by_path func(s unsafe.Pointer, p unsafe.Pointer, path unsafe.Pointer, m unsafe.Pointer) (ret int)

@@ -37,7 +37,7 @@ import (
     `unsafe`
     `strings`
 
-    `github.com/bytedance/sonic/encoder`
+    `github.com/douglasboyle/sonic/encoder`
     `github.com/stretchr/testify/assert`
 )
 

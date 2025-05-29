@@ -19,8 +19,8 @@ package avx2
 import (
     `unsafe`
 
-    `github.com/bytedance/sonic/internal/native/types`
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/native/types`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 var F_value func(s unsafe.Pointer, n int, p int, v unsafe.Pointer, flags uint64) (ret int)

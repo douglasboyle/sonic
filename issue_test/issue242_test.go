@@ -24,7 +24,7 @@ import (
     `testing`
 
     `github.com/stretchr/testify/require`
-    `github.com/bytedance/sonic`
+    `github.com/douglasboyle/sonic`
 )
 
 func TestIssue242_MarshalControlChars(t *testing.T) {

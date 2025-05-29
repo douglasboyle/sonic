@@ -26,10 +26,10 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/bytedance/sonic/internal/decoder/consts"
-	"github.com/bytedance/sonic/internal/native/types"
-	"github.com/bytedance/sonic/option"
-	"github.com/bytedance/sonic/internal/compat"
+	"github.com/douglasboyle/sonic/internal/decoder/consts"
+	"github.com/douglasboyle/sonic/internal/native/types"
+	"github.com/douglasboyle/sonic/option"
+	"github.com/douglasboyle/sonic/internal/compat"
 )
 
 func init() {

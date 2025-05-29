@@ -6,11 +6,11 @@ import (
     `reflect`
     `runtime`
 
-	`github.com/bytedance/sonic/internal/decoder/consts`
-	`github.com/bytedance/sonic/internal/decoder/errors`
-    `github.com/bytedance/sonic/internal/rt`
-    `github.com/bytedance/sonic/utf8`
-	`github.com/bytedance/sonic/option`
+	`github.com/douglasboyle/sonic/internal/decoder/consts`
+	`github.com/douglasboyle/sonic/internal/decoder/errors`
+    `github.com/douglasboyle/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/utf8`
+	`github.com/douglasboyle/sonic/option`
 )
 
 type (

@@ -21,7 +21,7 @@ package neon
 import (
     `unsafe`
 
-    // `github.com/bytedance/sonic/internal/native/types`
+    // `github.com/douglasboyle/sonic/internal/native/types`
 )
 
 //go:nosplit

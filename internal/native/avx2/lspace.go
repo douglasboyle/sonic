@@ -21,7 +21,7 @@ package avx2
 import (
     `unsafe`
 
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 var F_lspace func(sp unsafe.Pointer, nb int, off int) (ret int)

@@ -22,7 +22,7 @@ package encoder
 import (
     `encoding/json`
 
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 

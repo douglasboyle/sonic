@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/bytedance/sonic/option"
+	"github.com/douglasboyle/sonic/option"
 )
 
 //go:nosplit

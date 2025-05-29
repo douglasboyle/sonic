@@ -4,7 +4,7 @@ package issue_test
 import (
 	"testing"
 
-	"github.com/bytedance/sonic"
+	"github.com/douglasboyle/sonic"
 )
 
 func TestIssue772_SkipIfaceType(t *testing.T) {

@@ -21,7 +21,7 @@ package avx2
 import (
     `unsafe`
 
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 var F_f64toa func(out unsafe.Pointer, val float64) (ret int) 

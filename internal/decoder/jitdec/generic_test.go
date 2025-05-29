@@ -21,7 +21,7 @@ import (
     `reflect`
     `testing`
 
-    `github.com/bytedance/sonic/internal/native/types`
+    `github.com/douglasboyle/sonic/internal/native/types`
     `github.com/davecgh/go-spew/spew`
     `github.com/stretchr/testify/assert`
     `github.com/stretchr/testify/require`

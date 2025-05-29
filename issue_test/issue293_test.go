@@ -21,7 +21,7 @@ import (
     `strings`
     `testing`
 
-    `github.com/bytedance/sonic/decoder`
+    `github.com/douglasboyle/sonic/decoder`
 )
 
 func TestIssue293(t *testing.T) {

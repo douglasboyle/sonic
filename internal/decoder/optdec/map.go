@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/bytedance/sonic/internal/rt"
+	"github.com/douglasboyle/sonic/internal/rt"
 )
 
 /** Decoder for most common map types: map[string]interface{}, map[string]string **/

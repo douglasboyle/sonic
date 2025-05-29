@@ -19,12 +19,12 @@ package api
 import (
     `reflect`
 
-    `github.com/bytedance/sonic/internal/native`
-    `github.com/bytedance/sonic/internal/native/types`
-	`github.com/bytedance/sonic/internal/decoder/consts`
-	`github.com/bytedance/sonic/internal/decoder/errors`
-    `github.com/bytedance/sonic/internal/rt`
-    `github.com/bytedance/sonic/option`
+    `github.com/douglasboyle/sonic/internal/native`
+    `github.com/douglasboyle/sonic/internal/native/types`
+	`github.com/douglasboyle/sonic/internal/decoder/consts`
+	`github.com/douglasboyle/sonic/internal/decoder/errors`
+    `github.com/douglasboyle/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/option`
 )
 
 const (

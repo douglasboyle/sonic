@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bytedance/sonic"
+	"github.com/douglasboyle/sonic"
 	"github.com/stretchr/testify/assert"
 )
 

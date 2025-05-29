@@ -21,7 +21,7 @@ package sse
 import (
     `unsafe`
 
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 var F_unquote func(sp unsafe.Pointer, nb int, dp unsafe.Pointer, ep unsafe.Pointer, flags uint64) (ret int)

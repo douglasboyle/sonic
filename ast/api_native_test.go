@@ -27,7 +27,7 @@ import (
     `runtime/debug`
     `testing`
 
-    `github.com/bytedance/sonic/encoder`
+    `github.com/douglasboyle/sonic/encoder`
     `github.com/stretchr/testify/require`
 )
 

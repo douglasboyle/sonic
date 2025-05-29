@@ -19,11 +19,11 @@ package native
 import (
     `unsafe`
 
-    `github.com/bytedance/sonic/internal/cpu`
-    `github.com/bytedance/sonic/internal/native/avx2`
-    `github.com/bytedance/sonic/internal/native/sse`
-    `github.com/bytedance/sonic/internal/native/types`
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/cpu`
+    `github.com/douglasboyle/sonic/internal/native/avx2`
+    `github.com/douglasboyle/sonic/internal/native/sse`
+    `github.com/douglasboyle/sonic/internal/native/types`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 const MaxFrameSize   uintptr = 400

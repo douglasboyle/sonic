@@ -38,8 +38,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/bytedance/sonic/decoder"
-	"github.com/bytedance/sonic/internal/native/types"
+	"github.com/douglasboyle/sonic/decoder"
+	"github.com/douglasboyle/sonic/internal/native/types"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/bytedance/sonic/internal/native"
-	"github.com/bytedance/sonic/internal/utils"
-	"github.com/bytedance/sonic/internal/native/types"
+	"github.com/douglasboyle/sonic/internal/native"
+	"github.com/douglasboyle/sonic/internal/utils"
+	"github.com/douglasboyle/sonic/internal/native/types"
 )
 
 

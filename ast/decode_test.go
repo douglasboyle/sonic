@@ -20,7 +20,7 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/bytedance/sonic/internal/rt"
+	"github.com/douglasboyle/sonic/internal/rt"
 )
 
 func Test_DecodeString(t *testing.T) {

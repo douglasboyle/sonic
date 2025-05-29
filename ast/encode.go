@@ -20,8 +20,8 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"github.com/bytedance/sonic/internal/rt"
-    "github.com/bytedance/sonic/option"
+	"github.com/douglasboyle/sonic/internal/rt"
+    "github.com/douglasboyle/sonic/option"
 )
 
 func quoteString(e *[]byte, s string) {

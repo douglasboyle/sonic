@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bytedance/sonic/internal/encoder"
-	"github.com/bytedance/sonic/internal/encoder/vars"
+	"github.com/douglasboyle/sonic/internal/encoder"
+	"github.com/douglasboyle/sonic/internal/encoder/vars"
 	"github.com/stretchr/testify/require"
 )
 

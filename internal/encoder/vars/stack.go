@@ -21,9 +21,9 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/bytedance/sonic/internal/caching"
-	"github.com/bytedance/sonic/internal/rt"
-	"github.com/bytedance/sonic/option"
+	"github.com/douglasboyle/sonic/internal/caching"
+	"github.com/douglasboyle/sonic/internal/rt"
+	"github.com/douglasboyle/sonic/option"
 )
 
 type State struct {

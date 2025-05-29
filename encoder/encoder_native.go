@@ -19,7 +19,7 @@
 package encoder
 
 import (
-    `github.com/bytedance/sonic/internal/encoder`
+    `github.com/douglasboyle/sonic/internal/encoder`
 )
 
 // EnableFallback indicates if encoder use fallback

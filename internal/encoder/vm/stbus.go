@@ -20,10 +20,10 @@ import (
 	"unsafe"
 	_ "unsafe"
 
-	"github.com/bytedance/sonic/internal/encoder/alg"
-	"github.com/bytedance/sonic/internal/encoder/ir"
-	"github.com/bytedance/sonic/internal/encoder/vars"
-	"github.com/bytedance/sonic/internal/rt"
+	"github.com/douglasboyle/sonic/internal/encoder/alg"
+	"github.com/douglasboyle/sonic/internal/encoder/ir"
+	"github.com/douglasboyle/sonic/internal/encoder/vars"
+	"github.com/douglasboyle/sonic/internal/rt"
 )
 
 func EncodeTypedPointer(buf *[]byte, vt *rt.GoType, vp *unsafe.Pointer, sb *vars.Stack, fv uint64) error {

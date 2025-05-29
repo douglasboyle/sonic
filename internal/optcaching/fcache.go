@@ -21,10 +21,10 @@ import (
 	"unicode"
 	"unsafe"
 
-	"github.com/bytedance/sonic/internal/envs"
-	"github.com/bytedance/sonic/internal/native"
-	"github.com/bytedance/sonic/internal/resolver"
-	"github.com/bytedance/sonic/internal/rt"
+	"github.com/douglasboyle/sonic/internal/envs"
+	"github.com/douglasboyle/sonic/internal/native"
+	"github.com/douglasboyle/sonic/internal/resolver"
+	"github.com/douglasboyle/sonic/internal/rt"
 )
 
 const _AlignSize =  32

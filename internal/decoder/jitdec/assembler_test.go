@@ -23,13 +23,13 @@ import (
     `testing`
     `unsafe`
 
-    `github.com/bytedance/sonic/internal/caching`
-    `github.com/bytedance/sonic/internal/jit`
-    `github.com/bytedance/sonic/internal/native/types`
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/caching`
+    `github.com/douglasboyle/sonic/internal/jit`
+    `github.com/douglasboyle/sonic/internal/native/types`
+    `github.com/douglasboyle/sonic/internal/rt`
     `github.com/stretchr/testify/assert`
     `github.com/stretchr/testify/require`
-	`github.com/bytedance/sonic/internal/decoder/errors`
+	`github.com/douglasboyle/sonic/internal/decoder/errors`
 )
 
 var utextVar []byte

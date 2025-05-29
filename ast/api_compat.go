@@ -22,9 +22,9 @@ import (
     `encoding/json`
     `unicode/utf8`
 
-    `github.com/bytedance/sonic/internal/native/types`
-    `github.com/bytedance/sonic/internal/rt`
-    `github.com/bytedance/sonic/internal/compat`
+    `github.com/douglasboyle/sonic/internal/native/types`
+    `github.com/douglasboyle/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/compat`
 )
 
 func init() {

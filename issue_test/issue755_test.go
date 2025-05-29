@@ -2,7 +2,7 @@ package issue_test
 
 import (
 	"testing"
-	"github.com/bytedance/sonic"
+	"github.com/douglasboyle/sonic"
 )
 
 var _emptyFunc func()

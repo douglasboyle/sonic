@@ -1,16 +1,16 @@
-module github.com/bytedance/sonic/generic_test
+module github.com/douglasboyle/sonic/generic_test
 
 go 1.18
 
 require (
-	github.com/bytedance/sonic v1.11.5-alpha3
+	github.com/douglasboyle/sonic v1.11.5-alpha3
 	github.com/go-json-experiment/json v0.0.0-20220603215908-554802c1e539
 	github.com/goccy/go-json v0.9.11
 	github.com/json-iterator/go v1.1.12
 )
 
 require (
-	github.com/bytedance/sonic/loader v0.2.4 // indirect
+	github.com/douglasboyle/sonic/loader v0.2.4 // indirect
 	github.com/cloudwego/base64x v0.1.5 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
@@ -19,4 +19,11 @@ require (
 	golang.org/x/arch v0.0.0-20210923205945-b76863e36670 // indirect
 )
 
-replace github.com/bytedance/sonic => ../.
+require (
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/stretchr/testify v1.8.1 // indirect
+)
+
+replace github.com/douglasboyle/sonic => ../.
+
+replace github.com/bytedance/sonic/loader => ../loader

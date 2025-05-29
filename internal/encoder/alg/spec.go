@@ -24,9 +24,9 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/bytedance/sonic/internal/native"
-	"github.com/bytedance/sonic/internal/native/types"
-	"github.com/bytedance/sonic/internal/rt"
+	"github.com/douglasboyle/sonic/internal/native"
+	"github.com/douglasboyle/sonic/internal/native/types"
+	"github.com/douglasboyle/sonic/internal/rt"
 )
 
 // Valid validates json and returns first non-blank character position,

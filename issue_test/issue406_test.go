@@ -20,7 +20,7 @@ import (
     `testing`
     `encoding/json`
     `github.com/stretchr/testify/require`
-    `github.com/bytedance/sonic`
+    `github.com/douglasboyle/sonic`
 )
 
 type FooId struct {

@@ -23,11 +23,11 @@ import (
     `fmt`
     `reflect`
 
-    `github.com/bytedance/sonic/internal/jit`
-    `github.com/bytedance/sonic/internal/native`
-    `github.com/bytedance/sonic/internal/native/types`
+    `github.com/douglasboyle/sonic/internal/jit`
+    `github.com/douglasboyle/sonic/internal/native`
+    `github.com/douglasboyle/sonic/internal/native/types`
     `github.com/twitchyliquid64/golang-asm/obj`
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 /** Crucial Registers:

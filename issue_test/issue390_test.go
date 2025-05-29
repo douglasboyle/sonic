@@ -18,7 +18,7 @@ package issue_test
 
 import (
     `testing`
-    `github.com/bytedance/sonic`
+    `github.com/douglasboyle/sonic`
     `encoding/json`
     `github.com/stretchr/testify/require`
 )

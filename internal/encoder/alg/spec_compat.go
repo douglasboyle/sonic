@@ -25,7 +25,7 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"github.com/bytedance/sonic/internal/rt"
+	"github.com/douglasboyle/sonic/internal/rt"
 )
 
 // Valid validates json and returns first non-blank character position,

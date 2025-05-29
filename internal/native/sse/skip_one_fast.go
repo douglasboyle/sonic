@@ -21,7 +21,7 @@ package sse
 import (
     `unsafe`
 
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 var F_skip_one_fast func(s unsafe.Pointer, p unsafe.Pointer) (ret int)

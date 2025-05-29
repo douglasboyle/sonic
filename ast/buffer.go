@@ -20,7 +20,7 @@ import (
 	"sort"
 	"unsafe"
 
-	"github.com/bytedance/sonic/internal/caching"
+	"github.com/douglasboyle/sonic/internal/caching"
 )
 
 type nodeChunk [_DEFAULT_NODE_CAP]Node

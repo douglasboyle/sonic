@@ -23,7 +23,7 @@ import (
     `testing`
     `reflect`
     `fmt`
-    `github.com/bytedance/sonic`
+    `github.com/douglasboyle/sonic`
     `encoding/json`
     gojson `github.com/goccy/go-json`
     jsoniter `github.com/json-iterator/go`

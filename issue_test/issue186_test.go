@@ -23,7 +23,7 @@ import (
     `testing`
     `time`
 
-    `github.com/bytedance/sonic`
+    `github.com/douglasboyle/sonic`
 )
 
 

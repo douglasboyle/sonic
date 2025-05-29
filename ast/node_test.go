@@ -26,8 +26,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bytedance/sonic/internal/native/types"
-	"github.com/bytedance/sonic/internal/rt"
+	"github.com/douglasboyle/sonic/internal/native/types"
+	"github.com/douglasboyle/sonic/internal/rt"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -20,9 +20,9 @@ import (
 	"unsafe"
 	_ "unsafe"
 
-	"github.com/bytedance/sonic/internal/encoder/alg"
-	"github.com/bytedance/sonic/internal/encoder/vars"
-	"github.com/bytedance/sonic/internal/rt"
+	"github.com/douglasboyle/sonic/internal/encoder/alg"
+	"github.com/douglasboyle/sonic/internal/encoder/vars"
+	"github.com/douglasboyle/sonic/internal/rt"
 	"github.com/bytedance/sonic/loader"
 	_ "github.com/cloudwego/base64x"
 )

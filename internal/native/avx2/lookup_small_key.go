@@ -23,7 +23,7 @@ package avx2
 import (
     `unsafe`
 
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 var F_lookup_small_key func(key unsafe.Pointer, table unsafe.Pointer, lowerOff int) (ret int)

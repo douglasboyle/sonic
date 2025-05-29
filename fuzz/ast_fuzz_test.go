@@ -21,7 +21,7 @@ package sonic_fuzz
 import (
 	`testing`
 	`fmt`
-	`github.com/bytedance/sonic`
+	`github.com/douglasboyle/sonic`
 	`github.com/stretchr/testify/require`
 	`github.com/davecgh/go-spew/spew`
 )

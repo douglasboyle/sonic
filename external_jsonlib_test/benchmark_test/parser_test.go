@@ -19,7 +19,7 @@ package benchmark_test
 import (
     `testing`
 
-    `github.com/bytedance/sonic/ast`
+    `github.com/douglasboyle/sonic/ast`
     jsoniter `github.com/json-iterator/go`
     `github.com/tidwall/gjson`
     fastjson `github.com/valyala/fastjson`

@@ -25,7 +25,7 @@ import (
     `testing`
     `time`
 
-    `github.com/bytedance/sonic`
+    `github.com/douglasboyle/sonic`
     jsoniter `github.com/json-iterator/go`
     `github.com/stretchr/testify/require`
 )

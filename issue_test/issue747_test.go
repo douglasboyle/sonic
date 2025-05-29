@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"encoding/json"
-	"github.com/bytedance/sonic"
+	"github.com/douglasboyle/sonic"
 	"github.com/stretchr/testify/assert"
 )
 

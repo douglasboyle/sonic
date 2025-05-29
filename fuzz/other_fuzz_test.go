@@ -24,8 +24,8 @@ import (
 	`encoding/json`
 	`unicode/utf8`
 
-	`github.com/bytedance/sonic/encoder`
-	`github.com/bytedance/sonic/decoder`
+	`github.com/douglasboyle/sonic/encoder`
+	`github.com/douglasboyle/sonic/decoder`
 	`github.com/stretchr/testify/require`
 	// `github.com/davecgh/go-spew/spew`
 )

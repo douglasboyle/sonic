@@ -23,8 +23,8 @@ import (
     `reflect`
 
     `github.com/stretchr/testify/require`
-    `github.com/bytedance/sonic`
-    `github.com/bytedance/sonic/option`
+    `github.com/douglasboyle/sonic`
+    `github.com/douglasboyle/sonic/option`
 )
 
 type Issue138_DeepStruct struct {

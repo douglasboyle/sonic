@@ -29,8 +29,8 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/bytedance/sonic"
-	"github.com/bytedance/sonic/internal/rt"
+	"github.com/douglasboyle/sonic"
+	"github.com/douglasboyle/sonic/internal/rt"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/stretchr/testify/require"
 )

@@ -19,7 +19,7 @@ package vars
 import (
 	"unsafe"
 
-	"github.com/bytedance/sonic/internal/rt"
+	"github.com/douglasboyle/sonic/internal/rt"
 )
 
 type Encoder func(

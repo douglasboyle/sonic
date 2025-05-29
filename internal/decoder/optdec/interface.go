@@ -6,7 +6,7 @@ import (
 	"unsafe"
 	"reflect"
 
-	"github.com/bytedance/sonic/internal/rt"
+	"github.com/douglasboyle/sonic/internal/rt"
 )
 
 type efaceDecoder struct {

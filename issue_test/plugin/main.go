@@ -3,7 +3,7 @@ package main
 import (
     `fmt`
 
-    `github.com/bytedance/sonic`
+    `github.com/douglasboyle/sonic`
 )
 
 var V int

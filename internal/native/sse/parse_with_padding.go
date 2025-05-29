@@ -23,7 +23,7 @@ package sse
 import (
     `unsafe`
 
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 var F_parse_with_padding func(parser unsafe.Pointer) (ret int)

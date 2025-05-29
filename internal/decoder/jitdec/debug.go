@@ -22,7 +22,7 @@ import (
 	`runtime/debug`
 	`strings`
 
-	`github.com/bytedance/sonic/internal/jit`
+	`github.com/douglasboyle/sonic/internal/jit`
 )
 
 

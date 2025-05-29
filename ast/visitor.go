@@ -20,7 +20,7 @@ import (
     `encoding/json`
     `errors`
 
-    `github.com/bytedance/sonic/internal/native/types`
+    `github.com/douglasboyle/sonic/internal/native/types`
 )
 
 // Visitor handles the callbacks during preorder traversal of a JSON AST.

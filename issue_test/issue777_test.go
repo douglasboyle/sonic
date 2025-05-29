@@ -20,7 +20,7 @@
 	"encoding/json"
 	 "testing"
  
-	 "github.com/bytedance/sonic"
+	 "github.com/douglasboyle/sonic"
  )
  
  type unknownKeyMap struct {

@@ -25,8 +25,8 @@ import (
     `testing`
     `time`
 
-    . `github.com/bytedance/sonic`
-    `github.com/bytedance/sonic/option`
+    . `github.com/douglasboyle/sonic`
+    `github.com/douglasboyle/sonic/option`
     `github.com/stretchr/testify/require`
 )
 

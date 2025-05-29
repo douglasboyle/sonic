@@ -24,11 +24,11 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/bytedance/sonic/internal/encoder"
-	"github.com/bytedance/sonic/internal/encoder/ir"
-	"github.com/bytedance/sonic/internal/encoder/vars"
-	"github.com/bytedance/sonic/internal/encoder/x86"
-	"github.com/bytedance/sonic/internal/rt"
+	"github.com/douglasboyle/sonic/internal/encoder"
+	"github.com/douglasboyle/sonic/internal/encoder/ir"
+	"github.com/douglasboyle/sonic/internal/encoder/vars"
+	"github.com/douglasboyle/sonic/internal/encoder/x86"
+	"github.com/douglasboyle/sonic/internal/rt"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/stretchr/testify/assert"
 )

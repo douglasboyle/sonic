@@ -20,7 +20,7 @@ import (
     `sync`
     `testing`
 
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 func TestPcacheRace(t *testing.T) {

@@ -23,7 +23,7 @@ import (
     `strconv`
     `unsafe`
 
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 var ERR_too_deep = &json.UnsupportedValueError {

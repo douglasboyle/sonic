@@ -19,8 +19,8 @@ package sse
 import (
     `unsafe`
 
-    `github.com/bytedance/sonic/internal/native/types`
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/native/types`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 var F_vnumber func(s unsafe.Pointer, p unsafe.Pointer, v unsafe.Pointer)

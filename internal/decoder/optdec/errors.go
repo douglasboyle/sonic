@@ -22,7 +22,7 @@
 	 "reflect"
 	 "strconv"
  
-	 "github.com/bytedance/sonic/internal/rt"
+	 "github.com/douglasboyle/sonic/internal/rt"
  )
 
  /** JIT Error Helpers **/

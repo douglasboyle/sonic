@@ -21,7 +21,7 @@ package sse
 import (
     `unsafe`
 
-    `github.com/bytedance/sonic/internal/rt`
+    `github.com/douglasboyle/sonic/internal/rt`
 )
 
 var F_i64toa func(out unsafe.Pointer, val int64) (ret int)

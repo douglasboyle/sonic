@@ -24,7 +24,7 @@ import (
     `strings`
     `testing`
 
-    `github.com/bytedance/sonic/option`
+    `github.com/douglasboyle/sonic/option`
     `github.com/stretchr/testify/assert`
     `github.com/stretchr/testify/require`
 )

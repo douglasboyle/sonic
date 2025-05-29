@@ -19,8 +19,8 @@ package issue_test
 import (
     `testing`
 
-    `github.com/bytedance/sonic/ast`
-    `github.com/bytedance/sonic/internal/native/types`
+    `github.com/douglasboyle/sonic/ast`
+    `github.com/douglasboyle/sonic/internal/native/types`
     `github.com/stretchr/testify/assert`
 )
 

@@ -19,7 +19,7 @@ package unit_test
 import (
     `testing`
 
-    `github.com/bytedance/sonic/ast`
+    `github.com/douglasboyle/sonic/ast`
     jsoniter `github.com/json-iterator/go`
     `github.com/stretchr/testify/require`
     `github.com/tidwall/gjson`
