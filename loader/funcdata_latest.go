@@ -24,7 +24,7 @@ import (
     `sort`
     `unsafe`
 
-    `github.com/bytedance/sonic/loader/internal/rt`
+    `github.com/douglasboyle/sonic/loader/internal/rt`
 )
 
 type funcTab struct {

@@ -22,7 +22,7 @@
 package sse
 
 import (
-    `github.com/bytedance/sonic/loader`
+    `github.com/douglasboyle/sonic/loader`
 )
 
 func Use() {

@@ -22,7 +22,7 @@ import (
     `strings`
     `sync`
 
-    `github.com/bytedance/sonic/loader`
+    `github.com/douglasboyle/sonic/loader`
     `github.com/douglasboyle/sonic/internal/rt`
     `github.com/twitchyliquid64/golang-asm/obj`
     `github.com/twitchyliquid64/golang-asm/obj/x86`

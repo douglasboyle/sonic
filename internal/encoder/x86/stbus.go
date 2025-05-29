@@ -23,7 +23,7 @@ import (
 	"unsafe"
 	_ "unsafe"
 
-	"github.com/bytedance/sonic/loader"
+	"github.com/douglasboyle/sonic/loader"
 	_ "github.com/cloudwego/base64x"
 	"github.com/douglasboyle/sonic/internal/encoder/alg"
 	"github.com/douglasboyle/sonic/internal/encoder/vars"

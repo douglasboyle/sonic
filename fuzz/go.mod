@@ -19,4 +19,4 @@ require (
 
 replace github.com/douglasboyle/sonic => ../.
 
-replace github.com/bytedance/sonic/loader => ../loader
+replace github.com/douglasboyle/sonic/loader => ../loader
