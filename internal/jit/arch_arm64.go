@@ -1,5 +1,5 @@
-//go:build amd64
-// +build amd64
+//go:build arm64
+// +build arm64
 
 /*
  * Copyright 2021 ByteDance Inc.
@@ -20,33 +20,32 @@
 package jit
 
 import (
-	"reflect"
 	"unsafe"
 
-	"github.com/douglasboyle/sonic/internal/rt"
 	"github.com/twitchyliquid64/golang-asm/obj"
 )
 
-func Func(f interface{}) obj.Addr {
-	if p := rt.UnpackEface(f); p.Type.Kind() != reflect.Func {
-		panic("f is not a function")
-	} else {
-		return Imm(*(*int64)(p.Value))
-	}
+// Stub implementation for ARM64 - not implemented
+func As(op string) obj.As {
+	panic("jit: ARM64 implementation not available")
 }
 
-func Type(t reflect.Type) obj.Addr {
-	return Gtype(rt.UnpackType(t))
+func ImmPtr(imm unsafe.Pointer) obj.Addr {
+	panic("jit: ARM64 implementation not available")
 }
 
-func Itab(i *rt.GoType, t reflect.Type) obj.Addr {
-	return Imm(int64(uintptr(unsafe.Pointer(rt.GetItab(rt.IfaceType(i), rt.UnpackType(t), false)))))
+func Imm(imm int64) obj.Addr {
+	panic("jit: ARM64 implementation not available")
 }
 
-func Gitab(i *rt.GoItab) obj.Addr {
-	return Imm(int64(uintptr(unsafe.Pointer(i))))
+func Reg(reg string) obj.Addr {
+	panic("jit: ARM64 implementation not available")
 }
 
-func Gtype(t *rt.GoType) obj.Addr {
-	return Imm(int64(uintptr(unsafe.Pointer(t))))
+func Ptr(reg obj.Addr, offs int64) obj.Addr {
+	panic("jit: ARM64 implementation not available")
+}
+
+func Sib(reg obj.Addr, idx obj.Addr, scale int16, offs int64) obj.Addr {
+	panic("jit: ARM64 implementation not available")
 }

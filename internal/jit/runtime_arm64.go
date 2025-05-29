@@ -1,5 +1,5 @@
-//go:build amd64
-// +build amd64
+//go:build arm64
+// +build arm64
 
 /*
  * Copyright 2021 ByteDance Inc.
