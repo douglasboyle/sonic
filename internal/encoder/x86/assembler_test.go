@@ -1,3 +1,6 @@
+//go:build amd64
+// +build amd64
+
 /*
  * Copyright 2021 ByteDance Inc.
  *
@@ -24,12 +27,12 @@ import (
 	"testing"
 	"unsafe"
 
+	"github.com/davecgh/go-spew/spew"
 	"github.com/douglasboyle/sonic/internal/encoder"
 	"github.com/douglasboyle/sonic/internal/encoder/ir"
 	"github.com/douglasboyle/sonic/internal/encoder/vars"
 	"github.com/douglasboyle/sonic/internal/encoder/x86"
 	"github.com/douglasboyle/sonic/internal/rt"
-	"github.com/davecgh/go-spew/spew"
 	"github.com/stretchr/testify/assert"
 )
 
