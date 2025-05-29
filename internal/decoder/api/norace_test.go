@@ -25,7 +25,7 @@ import (
     `time`
     `unsafe`
 
-    `github.com/douglasboyle/sonic/internal/rt`
+    `github.com/bytedance/sonic/internal/rt`
 )
 
 var referred = false

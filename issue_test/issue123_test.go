@@ -22,7 +22,7 @@ import (
 	`sync`
 	`testing`
 
-	`github.com/douglasboyle/sonic`
+	`github.com/bytedance/sonic`
 )
 
 func TestGcWriteBarrier(t *testing.T) {

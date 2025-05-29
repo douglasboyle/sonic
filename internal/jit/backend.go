@@ -21,7 +21,7 @@ import (
     `sync`
     _ `unsafe`
 
-    `github.com/douglasboyle/sonic/internal/rt`
+    `github.com/bytedance/sonic/internal/rt`
     `github.com/twitchyliquid64/golang-asm/asm/arch`
     `github.com/twitchyliquid64/golang-asm/obj`
     `github.com/twitchyliquid64/golang-asm/objabi`

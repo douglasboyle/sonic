@@ -24,8 +24,8 @@ import (
     `encoding/json`
     `reflect`
 
-    `github.com/douglasboyle/sonic/option`
-    `github.com/douglasboyle/sonic/internal/compat`
+    `github.com/bytedance/sonic/option`
+    `github.com/bytedance/sonic/internal/compat`
 )
 
 func init() {

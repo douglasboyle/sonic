@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/douglasboyle/sonic/internal/encoder/vars"
+	"github.com/bytedance/sonic/internal/encoder/vars"
 )
 
 // StreamEncoder uses io.Writer as input.

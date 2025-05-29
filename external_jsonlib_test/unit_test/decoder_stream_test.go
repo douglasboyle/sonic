@@ -21,7 +21,7 @@ import (
     `strings`
     `testing`
 
-    `github.com/douglasboyle/sonic/decoder`
+    `github.com/bytedance/sonic/decoder`
     jsoniter "github.com/json-iterator/go"
     `github.com/stretchr/testify/assert`
     `github.com/stretchr/testify/require`

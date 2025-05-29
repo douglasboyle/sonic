@@ -24,7 +24,7 @@ import (
     `sync`
     `testing`
 
-	`github.com/douglasboyle/sonic/internal/encoder/vars`
+	`github.com/bytedance/sonic/internal/encoder/vars`
 )
 
 func TestGC(t *testing.T) {

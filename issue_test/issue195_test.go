@@ -21,7 +21,7 @@ import (
     `encoding/json`
     `github.com/stretchr/testify/require`
 
-    `github.com/douglasboyle/sonic`
+    `github.com/bytedance/sonic`
 )
 
 func TestDecodeStringToJsonNumber(t *testing.T) {

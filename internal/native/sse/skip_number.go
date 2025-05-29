@@ -21,7 +21,7 @@ package sse
 import (
     `unsafe`
 
-    `github.com/douglasboyle/sonic/internal/rt`
+    `github.com/bytedance/sonic/internal/rt`
 )
 
 var F_skip_number func(s unsafe.Pointer, p unsafe.Pointer) (ret int)

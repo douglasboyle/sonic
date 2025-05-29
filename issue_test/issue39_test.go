@@ -17,10 +17,10 @@
 package issue_test
 
 import (
-    . `github.com/douglasboyle/sonic`
+    . `github.com/bytedance/sonic`
     `testing`
 
-    `github.com/douglasboyle/sonic/decoder`
+    `github.com/bytedance/sonic/decoder`
     `github.com/stretchr/testify/require`
 )
 

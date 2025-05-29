@@ -23,7 +23,7 @@ package avx2
 import (
     `unsafe`
 
-    `github.com/douglasboyle/sonic/internal/rt`
+    `github.com/bytedance/sonic/internal/rt`
 )
 
 var F_parse_with_padding func(parser unsafe.Pointer) (ret int)

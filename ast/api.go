@@ -23,12 +23,12 @@ import (
     `runtime`
     `unsafe`
 
-    `github.com/douglasboyle/sonic/encoder`
-    `github.com/douglasboyle/sonic/internal/native`
-    `github.com/douglasboyle/sonic/internal/native/types`
-    `github.com/douglasboyle/sonic/internal/rt`
-    uq `github.com/douglasboyle/sonic/unquote`
-    `github.com/douglasboyle/sonic/utf8`
+    `github.com/bytedance/sonic/encoder`
+    `github.com/bytedance/sonic/internal/native`
+    `github.com/bytedance/sonic/internal/native/types`
+    `github.com/bytedance/sonic/internal/rt`
+    uq `github.com/bytedance/sonic/unquote`
+    `github.com/bytedance/sonic/utf8`
 )
 
 var typeByte = rt.UnpackEface(byte(0)).Type

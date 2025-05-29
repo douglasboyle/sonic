@@ -27,7 +27,7 @@ var (
     DefaultAstBufferSize  uint = 4 * 1024
 
     // LimitBufferSize indicates the max pool buffer size, in case of OOM.
-    // See issue https://github.com/douglasboyle/sonic/issues/614
+    // See issue https://github.com/bytedance/sonic/issues/614
     LimitBufferSize uint = 1024 * 1024
 )
 

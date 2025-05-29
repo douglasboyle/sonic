@@ -20,10 +20,10 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/douglasboyle/sonic/internal/encoder/vars"
-	"github.com/douglasboyle/sonic/internal/encoder/x86"
-	"github.com/douglasboyle/sonic/internal/rt"
-	"github.com/douglasboyle/sonic/option"
+	"github.com/bytedance/sonic/internal/encoder/vars"
+	"github.com/bytedance/sonic/internal/encoder/x86"
+	"github.com/bytedance/sonic/internal/rt"
+	"github.com/bytedance/sonic/option"
 )
 
 

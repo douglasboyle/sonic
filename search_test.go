@@ -32,7 +32,7 @@ import (
 
     `github.com/davecgh/go-spew/spew`
     `github.com/stretchr/testify/assert`
-    `github.com/douglasboyle/sonic/ast`
+    `github.com/bytedance/sonic/ast`
 )
 
 func Parse(src string) (*ast.Node, error) {

@@ -22,7 +22,7 @@ package jitdec
 import (
 	"unsafe"
 
-	"github.com/douglasboyle/sonic/loader"
+	"github.com/bytedance/sonic/loader"
 )
 
 //go:nosplit

@@ -21,7 +21,7 @@
 package decoder
 
 import (
-    `github.com/douglasboyle/sonic/internal/decoder/api`
+    `github.com/bytedance/sonic/internal/decoder/api`
 )
 
 // Decoder is the decoder context object

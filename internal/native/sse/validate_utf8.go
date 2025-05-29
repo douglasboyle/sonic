@@ -21,8 +21,8 @@ package sse
 import (
     `unsafe`
 
-    `github.com/douglasboyle/sonic/internal/native/types`
-    `github.com/douglasboyle/sonic/internal/rt`
+    `github.com/bytedance/sonic/internal/native/types`
+    `github.com/bytedance/sonic/internal/rt`
 )
 
 var F_validate_utf8 func(s unsafe.Pointer, p unsafe.Pointer, m unsafe.Pointer) (ret int)

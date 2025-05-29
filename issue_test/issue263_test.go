@@ -21,7 +21,7 @@ import (
     `strings`
     `testing`
 
-    `github.com/douglasboyle/sonic/decoder`
+    `github.com/bytedance/sonic/decoder`
     `github.com/stretchr/testify/require`
 )
 

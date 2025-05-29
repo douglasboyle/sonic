@@ -17,8 +17,8 @@
 package ast
 
 import (
-    `github.com/douglasboyle/sonic/internal/rt`
-    `github.com/douglasboyle/sonic/internal/native/types`
+    `github.com/bytedance/sonic/internal/rt`
+    `github.com/bytedance/sonic/internal/native/types`
 )
 
 // SearchOptions controls Searcher's behavior

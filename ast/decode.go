@@ -22,9 +22,9 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/douglasboyle/sonic/internal/native/types"
-	"github.com/douglasboyle/sonic/internal/rt"
-	"github.com/douglasboyle/sonic/internal/utils"
+	"github.com/bytedance/sonic/internal/native/types"
+	"github.com/bytedance/sonic/internal/rt"
+	"github.com/bytedance/sonic/internal/utils"
 )
 
 // Hack: this is used for both checking space and cause friendly compile errors in 32-bit arch.

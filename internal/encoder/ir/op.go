@@ -23,9 +23,9 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/douglasboyle/sonic/internal/encoder/vars"
-	"github.com/douglasboyle/sonic/internal/resolver"
-	"github.com/douglasboyle/sonic/internal/rt"
+	"github.com/bytedance/sonic/internal/encoder/vars"
+	"github.com/bytedance/sonic/internal/resolver"
+	"github.com/bytedance/sonic/internal/rt"
 )
 
 type Op uint8

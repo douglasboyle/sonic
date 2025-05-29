@@ -22,7 +22,7 @@ import (
     `strconv`
     `testing`
 
-    `github.com/douglasboyle/sonic/encoder`
+    `github.com/bytedance/sonic/encoder`
     `github.com/stretchr/testify/require`
 )
 

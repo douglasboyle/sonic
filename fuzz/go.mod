@@ -1,9 +1,9 @@
-module github.com/douglasboyle/sonic/fuzz
+module github.com/bytedance/sonic/fuzz
 
 go 1.18
 
 require (
-	github.com/douglasboyle/sonic v1.11.5-alpha3
+	github.com/bytedance/sonic v1.11.5-alpha3
 	github.com/stretchr/testify v1.8.1
 )
 
@@ -16,7 +16,3 @@ require (
 	golang.org/x/arch v0.0.0-20210923205945-b76863e36670 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/douglasboyle/sonic => ../.
-
-replace github.com/douglasboyle/sonic/loader => ../loader

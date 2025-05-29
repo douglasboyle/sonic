@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/douglasboyle/sonic/ast"
+	"github.com/bytedance/sonic/ast"
 	"github.com/stretchr/testify/require"
 )
 

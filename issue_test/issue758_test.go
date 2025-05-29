@@ -3,7 +3,7 @@ package issue_test
 import (
 	"testing"
 
-	"github.com/douglasboyle/sonic"
+	"github.com/bytedance/sonic"
 )
 
 

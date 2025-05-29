@@ -30,7 +30,7 @@ import (
     `log`
     `strconv`
 
-    `github.com/douglasboyle/sonic`
+    `github.com/bytedance/sonic`
     `github.com/stretchr/testify/require`
     `github.com/davecgh/go-spew/spew`
     `github.com/bytedance/gopkg/util/gctuner`

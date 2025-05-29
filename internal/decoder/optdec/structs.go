@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/douglasboyle/sonic/internal/decoder/consts"
-	caching "github.com/douglasboyle/sonic/internal/optcaching"
-	"github.com/douglasboyle/sonic/internal/resolver"
+	"github.com/bytedance/sonic/internal/decoder/consts"
+	caching "github.com/bytedance/sonic/internal/optcaching"
+	"github.com/bytedance/sonic/internal/resolver"
 )
 
 type fieldEntry struct {

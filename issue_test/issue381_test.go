@@ -22,8 +22,8 @@ import (
     `strings`
     `testing`
 
-    `github.com/douglasboyle/sonic`
-    `github.com/douglasboyle/sonic/option`
+    `github.com/bytedance/sonic`
+    `github.com/bytedance/sonic/option`
     _ `github.com/davecgh/go-spew/spew`
     `github.com/stretchr/testify/require`
 

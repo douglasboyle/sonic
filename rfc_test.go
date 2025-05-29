@@ -8,7 +8,7 @@ import (
 	"testing"
 	"strings"
 
-	"github.com/douglasboyle/sonic"
+	"github.com/bytedance/sonic"
 	"github.com/stretchr/testify/assert"
 )
 

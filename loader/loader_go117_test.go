@@ -26,7 +26,7 @@ import (
     `testing`
     `unsafe`
 
-    `github.com/douglasboyle/sonic/loader/internal/rt`
+    `github.com/bytedance/sonic/loader/internal/rt`
     `github.com/stretchr/testify/require`
 )
 
@@ -119,7 +119,7 @@ func TestLoad(t *testing.T) {
     locals.AddField(false)
     fn.LocalsPointerMaps = locals.Build()
 
-    rets := Load(bc, []Func{fn}, "dummy_module", []string{"github.com/douglasboyle/sonic/dummy.go"})
+    rets := Load(bc, []Func{fn}, "dummy_module", []string{"github.com/bytedance/sonic/dummy.go"})
     println("func address ", *(*unsafe.Pointer)(rets[0]))
     // for k, _ := range moduleCache.m {
     //     spew.Dump(k)
@@ -134,6 +134,6 @@ func TestLoad(t *testing.T) {
     fi := runtime.FuncForPC(*(*uintptr)(rets[0]))
     require.Equal(t, "dummy", fi.Name())
     file, line := fi.FileLine(0)
-    require.Equal(t, "github.com/douglasboyle/sonic/dummy.go", file)
+    require.Equal(t, "github.com/bytedance/sonic/dummy.go", file)
     require.Equal(t, 0, line)
 }

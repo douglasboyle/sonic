@@ -21,7 +21,7 @@ package loader
 
 import (
     `unsafe`
-    `github.com/douglasboyle/sonic/loader/internal/rt`
+    `github.com/bytedance/sonic/loader/internal/rt`
 )
 
 const (

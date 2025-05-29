@@ -22,7 +22,7 @@ import (
 
     `github.com/stretchr/testify/require`
     `github.com/davecgh/go-spew/spew`
-    `github.com/douglasboyle/sonic`
+    `github.com/bytedance/sonic`
 )
 
 type Issue144_StringOption struct {

@@ -22,7 +22,7 @@ import (
     `reflect`
 
     `github.com/stretchr/testify/require`
-    .`github.com/douglasboyle/sonic`
+    .`github.com/bytedance/sonic`
 )
 
 type Issue141_Case_Insentive1 struct {

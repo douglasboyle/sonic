@@ -1,4 +1,4 @@
-module github.com/douglasboyle/sonic
+module github.com/bytedance/sonic
 
 go 1.17
 
@@ -18,4 +18,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/douglasboyle/sonic/loader => ./loader
+replace github.com/bytedance/sonic => github.com/douglasboyle/sonic v0.0.0-20250529214002-69143166a731
+
+replace github.com/bytedance/sonic/loader => github.com/douglasboyle/sonic/loader v0.0.0-20250529214002-69143166a731

@@ -22,9 +22,9 @@ import (
     `testing`
     `reflect`
     
-    `github.com/douglasboyle/sonic`
-    `github.com/douglasboyle/sonic/option`
-    `github.com/douglasboyle/sonic/ast`
+    `github.com/bytedance/sonic`
+    `github.com/bytedance/sonic/option`
+    `github.com/bytedance/sonic/ast`
 )
 
 type Str interface {

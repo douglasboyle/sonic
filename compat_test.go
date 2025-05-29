@@ -22,7 +22,7 @@ import (
     `reflect`
     `testing`
 
-    `github.com/douglasboyle/sonic/option`
+    `github.com/bytedance/sonic/option`
     `github.com/stretchr/testify/require`
 )
 

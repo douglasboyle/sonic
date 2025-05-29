@@ -19,8 +19,8 @@
 package api
 
 import (
-	`github.com/douglasboyle/sonic/internal/decoder/optdec`
-	`github.com/douglasboyle/sonic/internal/envs`
+	`github.com/bytedance/sonic/internal/decoder/optdec`
+	`github.com/bytedance/sonic/internal/envs`
 )
 
 var (

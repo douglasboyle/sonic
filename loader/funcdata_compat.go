@@ -24,7 +24,7 @@ import (
    `unsafe`
    `sort`
 
-   `github.com/douglasboyle/sonic/loader/internal/rt`
+   `github.com/bytedance/sonic/loader/internal/rt`
 )
 
 const (

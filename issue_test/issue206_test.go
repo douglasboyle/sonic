@@ -24,8 +24,8 @@ import (
 
     `github.com/stretchr/testify/require`
 
-    `github.com/douglasboyle/sonic`
-    `github.com/douglasboyle/sonic/decoder`
+    `github.com/bytedance/sonic`
+    `github.com/bytedance/sonic/decoder`
 )
 
 var issue_19x_idata = "\"" + strings.Repeat("9", 1000) + "\""

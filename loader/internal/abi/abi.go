@@ -25,7 +25,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/douglasboyle/sonic/loader/internal/rt"
+	"github.com/bytedance/sonic/loader/internal/rt"
 )
 
 type FunctionLayout struct {

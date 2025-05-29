@@ -28,7 +28,7 @@ import (
     `runtime`
     `testing`
 
-    _ `github.com/douglasboyle/sonic`
+    _ `github.com/bytedance/sonic`
 )
 
 func buildPlugin() {

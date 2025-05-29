@@ -1,7 +1,8 @@
-github.com/bytedance/sonic/loader v0.1.1 h1:c+e5Pt1k/cy5wMveRDyk2X4B9hF4g7an8N3zCYjJFNM=
 github.com/bytedance/sonic/loader v0.2.0/go.mod h1:ncP89zfokxS5LZrJxl5z0UJcsk4M4yY2JpfqGeCtNLU=
 github.com/bytedance/sonic/loader v0.2.3/go.mod h1:N8A3vUdtUebEY2/VQC0MyhYeKUFosQU6FxH2JmUe6VI=
-github.com/cloudwego/iasm v0.2.0 h1:1KNIy1I1H9hNNFEEH3DVnI4UujN+1zjpuk6gwHLTssg=
+github.com/douglasboyle/sonic v0.0.0-20250529214002-69143166a731/go.mod h1:qsg70TrwlAe419zdOrGADdyJKKybTtVurEq8LFf2Bq0=
+github.com/douglasboyle/sonic/loader v0.0.0-20250529214002-69143166a731 h1:J8mVtYCbIFLe6AtkRljK1n0UYHG8Y7knHcIKnK1tX5w=
+github.com/douglasboyle/sonic/loader v0.0.0-20250529214002-69143166a731/go.mod h1:1Vrhj+mwMP7XxbkQtiOncvT4EFLwTZUHTyQi8r4M7cU=
 github.com/klauspost/cpuid/v2 v2.2.9 h1:66ze0taIn2H33fBvCkXuv9BmCwDfafmiIVpKV9kKGuY=
 github.com/klauspost/cpuid/v2 v2.2.9/go.mod h1:rqkxqrZ1EhYM9G+hXH7YdowN5R5RGN6NK4QwQ3WMXF8=
 golang.org/x/sys v0.22.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=

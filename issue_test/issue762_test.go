@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/douglasboyle/sonic"
+	"github.com/bytedance/sonic"
 )
 
 type MyJs struct {

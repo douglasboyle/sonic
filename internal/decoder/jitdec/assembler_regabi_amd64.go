@@ -27,11 +27,11 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/douglasboyle/sonic/internal/caching"
-	"github.com/douglasboyle/sonic/internal/jit"
-	"github.com/douglasboyle/sonic/internal/native"
-	"github.com/douglasboyle/sonic/internal/native/types"
-	"github.com/douglasboyle/sonic/internal/rt"
+	"github.com/bytedance/sonic/internal/caching"
+	"github.com/bytedance/sonic/internal/jit"
+	"github.com/bytedance/sonic/internal/native"
+	"github.com/bytedance/sonic/internal/native/types"
+	"github.com/bytedance/sonic/internal/rt"
 	"github.com/twitchyliquid64/golang-asm/obj"
 )
 

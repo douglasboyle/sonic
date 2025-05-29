@@ -21,7 +21,7 @@ package sse
 import (
     `unsafe`
 
-    `github.com/douglasboyle/sonic/internal/rt`
+    `github.com/bytedance/sonic/internal/rt`
 )
 
 var F_lspace func(sp unsafe.Pointer, nb int, off int) (ret int)

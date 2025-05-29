@@ -22,10 +22,10 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/douglasboyle/sonic/internal/encoder/alg"
-	"github.com/douglasboyle/sonic/internal/encoder/ir"
-	"github.com/douglasboyle/sonic/internal/encoder/vars"
-	"github.com/douglasboyle/sonic/internal/rt"
+	"github.com/bytedance/sonic/internal/encoder/alg"
+	"github.com/bytedance/sonic/internal/encoder/ir"
+	"github.com/bytedance/sonic/internal/encoder/vars"
+	"github.com/bytedance/sonic/internal/rt"
 )
 
 const (

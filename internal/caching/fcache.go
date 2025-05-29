@@ -20,7 +20,7 @@ import (
     `strings`
     `unsafe`
 
-    `github.com/douglasboyle/sonic/internal/rt`
+    `github.com/bytedance/sonic/internal/rt`
 )
 
 type FieldMap struct {

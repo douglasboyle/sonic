@@ -5,8 +5,8 @@ import (
 	"math"
 	"unsafe"
 
-	"github.com/douglasboyle/sonic/internal/envs"
-	"github.com/douglasboyle/sonic/internal/rt"
+	"github.com/bytedance/sonic/internal/envs"
+	"github.com/bytedance/sonic/internal/rt"
 )
 
 type Context struct {

@@ -25,17 +25,17 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/douglasboyle/sonic/internal/cpu"
-	"github.com/douglasboyle/sonic/internal/encoder/alg"
-	"github.com/douglasboyle/sonic/internal/encoder/ir"
-	"github.com/douglasboyle/sonic/internal/encoder/vars"
-	"github.com/douglasboyle/sonic/internal/jit"
-	"github.com/douglasboyle/sonic/internal/native/types"
+	"github.com/bytedance/sonic/internal/cpu"
+	"github.com/bytedance/sonic/internal/encoder/alg"
+	"github.com/bytedance/sonic/internal/encoder/ir"
+	"github.com/bytedance/sonic/internal/encoder/vars"
+	"github.com/bytedance/sonic/internal/jit"
+	"github.com/bytedance/sonic/internal/native/types"
 	"github.com/twitchyliquid64/golang-asm/obj"
 	"github.com/twitchyliquid64/golang-asm/obj/x86"
 
-	"github.com/douglasboyle/sonic/internal/native"
-	"github.com/douglasboyle/sonic/internal/rt"
+	"github.com/bytedance/sonic/internal/native"
+	"github.com/bytedance/sonic/internal/rt"
 )
 
 /** Register Allocations

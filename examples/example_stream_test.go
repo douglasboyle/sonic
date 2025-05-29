@@ -6,7 +6,7 @@ import (
 	"bytes"
 	"fmt"
 	"strings"
-	"github.com/douglasboyle/sonic"
+	"github.com/bytedance/sonic"
 )
 
 // This example uses a Decoder to decode a stream of distinct JSON values.

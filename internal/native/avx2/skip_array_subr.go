@@ -4,7 +4,7 @@
 package avx2
 
 import (
-	`github.com/douglasboyle/sonic/loader`
+	`github.com/bytedance/sonic/loader`
 )
 
 const (

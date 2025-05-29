@@ -22,7 +22,7 @@ import (
     `testing`
 
     `encoding/json`
-    `github.com/douglasboyle/sonic`
+    `github.com/bytedance/sonic`
     `github.com/stretchr/testify/require`
 )
 

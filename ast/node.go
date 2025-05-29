@@ -24,8 +24,8 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/douglasboyle/sonic/internal/native/types"
-	"github.com/douglasboyle/sonic/internal/rt"
+	"github.com/bytedance/sonic/internal/native/types"
+	"github.com/bytedance/sonic/internal/rt"
 )
 
 const (

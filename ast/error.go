@@ -5,7 +5,7 @@ import (
     `strings`
     `unsafe`
 
-    `github.com/douglasboyle/sonic/internal/native/types`
+    `github.com/bytedance/sonic/internal/native/types`
 )
 
 

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"reflect"
 
-	caching "github.com/douglasboyle/sonic/internal/optcaching"
-	"github.com/douglasboyle/sonic/internal/rt"
-	"github.com/douglasboyle/sonic/internal/resolver"
+	caching "github.com/bytedance/sonic/internal/optcaching"
+	"github.com/bytedance/sonic/internal/rt"
+	"github.com/bytedance/sonic/internal/resolver"
 )
 
 const (

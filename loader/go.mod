@@ -1,4 +1,4 @@
-module github.com/douglasboyle/sonic/loader
+module github.com/bytedance/sonic/loader
 
 go 1.16
 

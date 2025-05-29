@@ -19,7 +19,7 @@ package errors
 import (
     `testing`
 
-    `github.com/douglasboyle/sonic/internal/native/types`
+    `github.com/bytedance/sonic/internal/native/types`
     `github.com/stretchr/testify/assert`
 )
 

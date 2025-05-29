@@ -28,10 +28,10 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/douglasboyle/sonic/internal/caching"
-	"github.com/douglasboyle/sonic/internal/resolver"
-	"github.com/douglasboyle/sonic/internal/rt"
-	"github.com/douglasboyle/sonic/option"
+	"github.com/bytedance/sonic/internal/caching"
+	"github.com/bytedance/sonic/internal/resolver"
+	"github.com/bytedance/sonic/internal/rt"
+	"github.com/bytedance/sonic/option"
 )
 
 type _Op uint8
@@ -1108,7 +1108,7 @@ func (self *_Compiler) compileStructFieldStrUnmarshal(p *_Program, vt reflect.Ty
 
 func (self *_Compiler) compileStructFieldStr(p *_Program, sp int, vt reflect.Type) {
 	// according to std, json.Unmarshaler should be called before stringize
-	// see https://github.com/douglasboyle/sonic/issues/670
+	// see https://github.com/bytedance/sonic/issues/670
 	if self.checkMarshaler(p, vt, checkMarshalerFlags_quoted, false) {
 		self.compileStructFieldStrUnmarshal(p, vt)
 		return

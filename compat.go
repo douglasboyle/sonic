@@ -24,7 +24,7 @@ import (
     `io`
     `reflect`
 
-    `github.com/douglasboyle/sonic/option`
+    `github.com/bytedance/sonic/option`
 )
 
 const apiKind = UseStdJSON
