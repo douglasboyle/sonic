@@ -17,7 +17,3 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/bytedance/sonic => github.com/douglasboyle/sonic v0.0.0-20250529214002-69143166a731
-
-replace github.com/bytedance/sonic/loader => github.com/douglasboyle/sonic/loader v0.0.0-20250529214002-69143166a731
