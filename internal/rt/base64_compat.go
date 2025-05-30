@@ -1,6 +1,3 @@
-//go:build !amd64 || !go1.17 || go1.25
-// +build !amd64 !go1.17 go1.25
-
 package rt
 
 import (
@@ -36,3 +33,8 @@ func EncodeBase64(buf []byte, src []byte) []byte {
 	buf = append(buf, '"')
 	return buf
 }
+
+// Dummy variables for compatibility with JIT assembler code
+// These are not used in the native implementation but needed for compilation
+var SubrB64Decode uintptr
+var SubrB64Encode uintptr

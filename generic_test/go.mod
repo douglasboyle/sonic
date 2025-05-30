@@ -10,7 +10,6 @@ require (
 )
 
 require (
-	github.com/bytedance/sonic/loader v0.2.4 // indirect
 	github.com/cloudwego/base64x v0.1.5 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
@@ -19,7 +18,4 @@ require (
 	golang.org/x/arch v0.0.0-20210923205945-b76863e36670 // indirect
 )
 
-require (
-	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/stretchr/testify v1.8.1 // indirect
-)
+require github.com/stretchr/testify v1.9.0 // indirect
