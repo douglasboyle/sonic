@@ -23,11 +23,10 @@ import (
 	"unsafe"
 	_ "unsafe"
 
-	"github.com/bytedance/sonic/loader"
-	_ "github.com/cloudwego/base64x"
 	"github.com/bytedance/sonic/internal/encoder/alg"
 	"github.com/bytedance/sonic/internal/encoder/vars"
 	"github.com/bytedance/sonic/internal/rt"
+	"github.com/bytedance/sonic/loader"
 )
 
 var compiler func(*rt.GoType, ...interface{}) (interface{}, error)
